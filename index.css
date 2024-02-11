@@ -36,6 +36,9 @@ body {
     grid-template-columns: 1fr;
 
     margin: 0 2rem;
+
+    border-radius: 7px;
+    overflow: hidden;
 }
 
 
