@@ -33,7 +33,7 @@ body {
     max-width: 375px;
 
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(3, 1fr);
+    /*grid-template-rows: repeat(3, 1fr);*/
 
     margin: 0 2rem;
 }
@@ -122,11 +122,10 @@ h1, h2, h3 {
         max-width: 900px;
     
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, 1fr);
+
         grid-template-areas: 
         "c c"
         "s f";
-        justify-content: center;
     }
 
     .community {
@@ -136,12 +135,10 @@ h1, h2, h3 {
     .subscription {
         grid-area: s;
 
-        width: 50%;
     }
     
     .footer {
         grid-area: f;
-
-        width: 50%;
+     
     }
 }
