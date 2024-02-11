@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://github.com/hassanmoaa/Single-Price-Grid-FrontEndMentor.git)
-- Live Site URL: (https://brilliant-treacle-9fe449.netlify.app/)
+- Solution URL: ()
+- Live Site URL: ()
 
 ### Built with
 
@@ -47,13 +47,13 @@ Practiced my media query skills and responsiveness, also first time to actually 
     grid-template-columns: 1fr;
 
 @media (min-width: 600px) {
-    
+
     .grid {
         max-width: 600px;
-    
+
         grid-template-columns: repeat(2, 1fr);
 
-        grid-template-areas: 
+        grid-template-areas:
         "c c"
         "s f";
     }
@@ -61,11 +61,11 @@ Practiced my media query skills and responsiveness, also first time to actually 
     .community {
         grid-area: c;
     }
-    
+
     .subscription {
         grid-area: s;
     }
-    
+
     .footer {
         grid-area: f;
     }
