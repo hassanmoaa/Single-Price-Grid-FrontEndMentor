@@ -32,8 +32,8 @@ body {
 .grid {
     max-width: 375px;
 
+    display: grid;
     grid-template-columns: 1fr;
-    /*grid-template-rows: repeat(3, 1fr);*/
 
     margin: 0 2rem;
 }
@@ -56,7 +56,6 @@ body {
 
 .sign-btn {
     font-weight: 700;
-    color: white;
     background-color: var(--bright-yellow);
     border: none;
     border-radius: 5px;
@@ -67,6 +66,12 @@ body {
     cursor: pointer;
     box-shadow: 1px 1px 10px rgba(0,0,0,.2);
 }
+
+.sign-btn--link {
+    text-decoration: none;
+    color: white;
+}
+
 
 .feature {
     padding: 0;
@@ -119,7 +124,7 @@ h1, h2, h3 {
 @media (min-width: 600px) {
     
     .grid {
-        max-width: 900px;
+        max-width: 600px;
     
         grid-template-columns: repeat(2, 1fr);
 
@@ -134,11 +139,9 @@ h1, h2, h3 {
     
     .subscription {
         grid-area: s;
-
     }
     
     .footer {
         grid-area: f;
-     
     }
 }
