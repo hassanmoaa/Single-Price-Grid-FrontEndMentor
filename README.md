@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: ()
-- Live Site URL: ()
+- Solution URL: (https://github.com/hassanmoaa/Single-Price-Grid-FrontEndMentor.git)
+- Live Site URL: (https://brilliant-treacle-9fe449.netlify.app/)
 
 ### Built with
 
